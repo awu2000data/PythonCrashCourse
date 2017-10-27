@@ -45,6 +45,20 @@ print("\n")
 print("You can pop from any index")
 first_motorcycle = motorcycles.pop(0)
 print("The first motorcycle I owned was a: " + first_motorcycle.title() + ".")
+print("\n")
 
+print("removing an item by value")
+motorcycles = ["honda", "yamaha", "suzuki","ducati"]
+print(motorcycles)
+motorcycles.remove("ducati")
+print("motorcycles.remove('ducati'): " + str(motorcycles))
+print("\n")
 
-
+print("using an item removed by value")
+motorcycles = ["honda", "yamaha", "suzuki","ducati"]
+print(motorcycles)
+too_expensive = "ducati"
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print("A " + too_expensive + " is too expensive for me.")
+print("\n")
