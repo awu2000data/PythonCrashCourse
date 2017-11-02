@@ -1,0 +1,4 @@
+In python you can make lists easily through list comprehension
+In python dictionaries are data structures that store key/value pairs that describe data
+In python you can create classes to model real world objects
+In python you can store code in separate files called modules and you can import that code in to other files
